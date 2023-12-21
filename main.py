@@ -27,12 +27,12 @@ def user_turn(stones):
 
 def play_game():
     stones = random.randint(4, 30)
-    print("Колличество камней в куче:", stones)
+    print("Количество камней в куче:", stones)
     while stones > 1:
         stones = user_turn(stones)
         print("Колличество оставшихся камней:", stones)
         if stones == 1:
-            print("Ты поbедил!")
+            print("Ты поbeдил!")
             return 0
         if stones == 0:
             print("Компьютер выйграл")
