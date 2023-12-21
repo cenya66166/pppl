@@ -32,7 +32,7 @@ def play_game():
         stones = user_turn(stones)
         print("Колличество оставшихся камней:", stones)
         if stones == 1:
-            print("Ты поdбедил!")
+            print("Ты поbедил!")
             return 0
         if stones == 0:
             print("Компьютер выйграл")
